@@ -94,14 +94,6 @@ Infinite Scroll diimplementasikan dengan:
 
 ---
 
-## Implementasi Lazy Load
-
-Gambar film menggunakan native lazy loading HTML:
-
-<img src="..." loading="lazy">
-
----
-
 ## Implementasi Keamanan
 
 -   Middleware untuk proteksi halaman.
@@ -174,18 +166,5 @@ http://127.0.0.1:8000/
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 ![alt text](image-5.png)
-
----
-
-## Kesesuaian Dengan Ketentuan Test
-
--   Menggunakan Laravel 5
--   Login Required
--   Integrasi OMDb API
--   Infinite Scroll
--   Lazy Load
--   Favorite Movie
--   Multi Language (EN / ID)
--   Empty State Layout
 
 ---
