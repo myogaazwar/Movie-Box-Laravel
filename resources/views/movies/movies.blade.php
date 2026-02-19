@@ -15,12 +15,12 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                     d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
             </svg>
-            <input type="text" x-model="query" class="pl-10 border p-2 w-full shadow-sm"
+            <input name="search_movies" type="text" x-model="query" class="pl-10 border p-2 w-full shadow-sm"
                 placeholder="{{ __('movies.placeholder_search') }}">
 
         </div>
 
-        <button @click="search()" class="bg-primary text-white px-8 py-2 mt-5 rounded-lg">
+        <button id="btn_search" @click="search()" class="bg-primary text-white px-8 py-2 mt-5 rounded-lg">
             {{ __('movies.btn_search') }}
         </button>
 
